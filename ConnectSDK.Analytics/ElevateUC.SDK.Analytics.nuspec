@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ElevateUC.SDK.Analytics</id>
+    <version>$version$</version>
+    <authors>Elevate</authors>
+    <owners>ServerData</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://developer.elevate.services/index.html</projectUrl>
+    <repository type="git" url="https://github.com/serverdata-net/elevate-dotnet-sdk"/>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Elevate API SDK for .NET to get data for analytics purposes</description>
+    <copyright>serverdata.net, Inc.</copyright>
+    <tags>SDK Elevate AnalyticsAPI Analytics</tags>
+    <icon>icon.png</icon>
+    <dependencies>
+     <group targetFramework=".NETStandard2.0">
+       <dependency id="System.Text.Json" version="[5.0.2,6.0]" exclude="Build,Analyzers" />
+       <dependency id="ElevateUC.SDK.Common" version="[1.0.1,2.0]" exclude="Build,Analyzers" />
+     </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Debug\netstandard2.0\ConnectSDK.Analytics.dll" target="lib/netstandard2.0"/>
+    <file src="..\icon.png" target=""/>
+  </files>
+</package>
