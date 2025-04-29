@@ -13,14 +13,14 @@
     <tags>SDK Elevate AddressBookAPI AddressBook</tags>
     <icon>icon.png</icon>
     <dependencies>
-       <group targetFramework=".NETStandard2.0">
-        <dependency id="System.Text.Json" version="[5.0.2,6.0.0]" exclude="Build,Analyzers" />
-        <dependency id="ElevateUC.SDK.Common" version="[1.0.1,2.0.0]" exclude="Build,Analyzers" />
-       </group>
+      <group targetFramework="net8.0">
+        <dependency id="System.Text.Json" version="[9.0,10.0)" exclude="Build,Analyzers" />
+        <dependency id="ElevateUC.SDK.Common" version="[2.0,3.0)" exclude="Build,Analyzers" />
+      </group>
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\Debug\netstandard2.0\ConnectSDK.AddressBook.dll" target="lib/netstandard2.0"/>
+    <file src="bin\Debug\net8.0\ConnectSDK.AddressBook.dll" target="lib/net8.0"/>
     <file src="..\icon.png" target=""/>
   </files>
 </package>

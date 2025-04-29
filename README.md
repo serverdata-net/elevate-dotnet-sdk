@@ -1,4 +1,4 @@
-# Elevate API SDK for .NET
+# Elevate SDK for .NET
 ​
 You can use this C# client library to integrate Elevate APIs into your application. To do this, you will need an Elevate account.
 Before you start, we recommend that you visit our [Developer Portal](https://developer.elevate.services/).
